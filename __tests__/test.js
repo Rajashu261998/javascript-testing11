@@ -46,3 +46,15 @@ describe ("toEqual",()=>{
         expect(b).toEqual(c)
     })
 })
+
+describe("test relational operator",()=>{
+    test("100+100<=200",()=>{
+        expect(100+100).toBeLessThan(201)
+    })
+    test("100+100<=200",()=>{
+        expect(100+100).toBeLessThan(201)
+    })
+    test("100+100<=200",()=>{
+        expect(100+100).toBeLessThan(201)
+    })
+})
